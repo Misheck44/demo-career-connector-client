@@ -16,7 +16,7 @@ const Testimonial = () => {
           <figcaption className="mt-10">
             <img
               className="mx-auto h-10 w-10 rounded-full"
-              src="https://drive.google.com/file/d/1dqQAZOZ_5BZ9iIn0ZGvgLZcOm2ANTQYr/view?usp=drive_link"
+              src="/src/assets/images/Strive_Masiwa.jpg"
               alt="Strive's Masiwa picture"
             />
             <div className="mt-4 flex items-center justify-center space-x-3 text-base">
