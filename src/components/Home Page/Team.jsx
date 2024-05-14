@@ -3,31 +3,31 @@ const people = [
       name: 'MiSoS XTeCh',
       role: 'Co-Founder / CEO',
       imageUrl:
-        'https://drive.google.com/file/d/1diehIUwb61xg5VtZwwKUGiyRPIS6Xt9r/view?usp=drive_link',
+        'https://www.canva.com/design/DAGFMrCkucQ/cX3OGJuxR8uVM4Nqk3cqFQ/edit?utm_content=DAGFMrCkucQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
     },
     {
       name: 'MiSoS XTeCh',
       role: 'Co-Founder / CEO',
       imageUrl:
-        'https://drive.google.com/file/d/1diehIUwb61xg5VtZwwKUGiyRPIS6Xt9r/view?usp=drive_link',
+        'https://www.canva.com/design/DAGFMrCkucQ/cX3OGJuxR8uVM4Nqk3cqFQ/edit?utm_content=DAGFMrCkucQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
     },
     {
       name: 'MiSoS XTeCh',
       role: 'Co-Founder / CEO',
       imageUrl:
-        'https://drive.google.com/file/d/1diehIUwb61xg5VtZwwKUGiyRPIS6Xt9r/view?usp=drive_link',
+        'https://www.canva.com/design/DAGFMrCkucQ/cX3OGJuxR8uVM4Nqk3cqFQ/edit?utm_content=DAGFMrCkucQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
     },
     {
       name: 'MiSoS XTeCh',
       role: 'Co-Founder / CEO',
       imageUrl:
-        'https://drive.google.com/file/d/1diehIUwb61xg5VtZwwKUGiyRPIS6Xt9r/view?usp=drive_link',
+        'https://www.canva.com/design/DAGFMrCkucQ/cX3OGJuxR8uVM4Nqk3cqFQ/edit?utm_content=DAGFMrCkucQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
     },
     {
       name: 'MiSoS XTeCh',
       role: 'Co-Founder / CEO',
       imageUrl:
-        'https://drive.google.com/file/d/1diehIUwb61xg5VtZwwKUGiyRPIS6Xt9r/view?usp=drive_link',
+        'https://www.canva.com/design/DAGFMrCkucQ/cX3OGJuxR8uVM4Nqk3cqFQ/edit?utm_content=DAGFMrCkucQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
     },
     {
       name: 'MiSoS XTeCh',
