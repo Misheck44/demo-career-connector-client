@@ -49,7 +49,7 @@ const Job = () => {
             <Wrapper>
                 <div className="top-row">
                     <h2 className="title">
-                        <span className="capitalize ">job title: </span>
+                        <span className="capitalize ">Internship title: </span>
                         {job?.position}
                     </h2>
                     <h4 className="company">
@@ -70,7 +70,7 @@ const Job = () => {
                         Deadline: <span className="">{date}</span>
                     </h4>
                     <h4 className="vacancy">
-                        Job Vacancy: <span className="">{job?.jobVacancy}</span>
+                        Internship Vacancy: <span className="">{job?.jobVacancy}</span>
                     </h4>
                     <div className="requirement">
                         <h3 className="sec-title">Requirements</h3>

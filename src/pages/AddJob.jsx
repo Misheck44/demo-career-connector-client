@@ -100,11 +100,11 @@ const AddJob = () => {
                                     type="text"
                                     id="position"
                                     name="position"
-                                    placeholder="Job Position"
+                                    placeholder="Internship Position"
                                     {...register("position", {
                                         required: {
                                             value: true,
-                                            message: "Job Positon is required",
+                                            message: "Internship Position is required",
                                         },
                                         maxLength: {
                                             value: 100,
@@ -164,7 +164,7 @@ const AddJob = () => {
                                     {...register("location", {
                                         required: {
                                             value: true,
-                                            message: "Job Location is required",
+                                            message: "Internship Location is required",
                                         },
                                         maxLength: {
                                             value: 100,
@@ -185,7 +185,7 @@ const AddJob = () => {
 
                             {/* Status */}
                             <div className="row">
-                                <label htmlFor="status">Job Status</label>
+                                <label htmlFor="status">Internship Status</label>
                                 <select
                                     defaultValue={"none"}
                                     name="status"
@@ -193,20 +193,20 @@ const AddJob = () => {
                                     {...register("status", {
                                         required: {
                                             value: true,
-                                            message: "Job Status is required",
+                                            message: "Internship Status is required",
                                         },
                                         validate: {
                                             valueType: (value) => {
                                                 return (
                                                     value !== "none" ||
-                                                    "Job Status is required"
+                                                    "Internship Status is required"
                                                 );
                                             },
                                         },
                                     })}
                                 >
                                     <option disabled value="none">
-                                        Select a Job Status
+                                        Select a Internship Status
                                     </option>
 
                                     {Job_Status?.map((job, index) => (
@@ -224,7 +224,7 @@ const AddJob = () => {
 
                             {/* Type */}
                             <div className="row">
-                                <label htmlFor="type">Job Type</label>
+                                <label htmlFor="type">Internship Type</label>
                                 <select
                                     defaultValue={"none"}
                                     name="type"
@@ -232,20 +232,20 @@ const AddJob = () => {
                                     {...register("type", {
                                         required: {
                                             value: true,
-                                            message: "Job Type is required",
+                                            message: "Internship Type is required",
                                         },
                                         validate: {
                                             valueType: (value) => {
                                                 return (
                                                     value !== "none" ||
-                                                    "Job Type is required"
+                                                    "Internship Type is required"
                                                 );
                                             },
                                         },
                                     })}
                                 >
                                     <option disabled value="none">
-                                        Select a Job Type
+                                        Select an Internship Type
                                     </option>
                                     {Job_Type?.map((job, index) => (
                                         <option value={job} key={index + job}>
@@ -267,21 +267,21 @@ const AddJob = () => {
                                     type="text"
                                     id="vacancy"
                                     name="vacancy"
-                                    placeholder="Job Vacancy"
+                                    placeholder="Internship Vacancy"
                                     {...register("vacancy", {
                                         required: {
                                             value: true,
-                                            message: "Job vacancy is required",
+                                            message: "Internship vacancy is required",
                                         },
                                         max: {
                                             value: 1000,
                                             message:
-                                                "Check number of job vacancy(too much)",
+                                                "Check number of internship vacancy(too much)",
                                         },
                                         min: {
                                             value: 1,
                                             message:
-                                                "Job Vacancy can't 0 or smaller",
+                                                "Internship Vacancy can't 0 or smaller",
                                         },
                                     })}
                                 />
@@ -299,21 +299,21 @@ const AddJob = () => {
                                     type="text"
                                     id="salary"
                                     name="salary"
-                                    placeholder="Job salary"
+                                    placeholder="Internship salary"
                                     {...register("salary", {
                                         required: {
                                             value: true,
-                                            message: "Job salary is required",
+                                            message: "Internship salary is required",
                                         },
                                         max: {
                                             value: 1000000,
                                             message:
-                                                "Check number of job salary(too much)",
+                                                "Check number of internship salary(too much)",
                                         },
                                         min: {
                                             value: 10,
                                             message:
-                                                "Job Vacancy can't 0 or smaller",
+                                                "Internship Vacancy can't 0 or smaller",
                                         },
                                     })}
                                 />
@@ -326,7 +326,7 @@ const AddJob = () => {
 
                             {/* Deadline */}
                             <div className="row">
-                                <label htmlFor="deadline">Job Deadline</label>
+                                <label htmlFor="deadline">Internship Deadline</label>
                                 <DatePicker
                                     selected={deadline}
                                     onChange={(date) => setDeadline(date)}
@@ -346,11 +346,11 @@ const AddJob = () => {
                                     type="text"
                                     id="contact"
                                     name="contact"
-                                    placeholder="Job Contact"
+                                    placeholder="Internship Contact"
                                     {...register("contact", {
                                         required: {
                                             value: true,
-                                            message: "Job contact is required",
+                                            message: "Internship contact is required",
                                         },
                                     })}
                                 />
@@ -382,7 +382,7 @@ const AddJob = () => {
                                 />
                             </div>
                             <div className="row gap-y-2">
-                                <label htmlFor="position">Job Facilities</label>
+                                <label htmlFor="position">Internship Facilities</label>
                                 <TagsInput
                                     value={facilities}
                                     onChange={setFacilities}
@@ -400,17 +400,17 @@ const AddJob = () => {
 
                         {/* Description */}
                         <div className="row  mt-5">
-                            <label htmlFor="description">Job Description</label>
+                            <label htmlFor="description">Internship Description</label>
                             <textarea
                                 type="text"
                                 id="description"
                                 name="description"
-                                placeholder="Job Description"
+                                placeholder="Internship Description"
                                 className="w-full max-w-none"
                                 {...register("description", {
                                     required: {
                                         value: true,
-                                        message: "Job description is required",
+                                        message: "Internship description is required",
                                     },
                                     maxLength: {
                                         value: 2000,

@@ -18,7 +18,7 @@ const category = [
 const PopularCategory = () => {
   return (
     <div className="max-w-7xl mx-auto md:px-12 px-6 mb-20">
-      <h2 className="md:text-3xl text-2xl font-semibold mb-5">Most Popular Vacancies</h2>
+      <h2 className="md:text-3xl text-2xl font-semibold mb-5">Most Popular Internship Vacancies</h2>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {
             category.map(({name, id, count}) => (

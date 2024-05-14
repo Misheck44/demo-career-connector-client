@@ -88,14 +88,14 @@ const ManageJobs = () => {
     if (!jobs?.result?.length) {
         return (
             <h2 className="text-lg md:text-3xl font-bold text-red-600 text-center mt-12">
-                -- Job List is Empty --
+                -- Internship List is Empty --
             </h2>
         );
     }
     return (
         <Wrapper>
             <div className="title-row">
-                Manage Jobs
+                Manage Internships
                 <CiSquarePlus className="ml-1 text-xl md:text-2xl" />
             </div>
             <div className="content-row">
@@ -103,7 +103,7 @@ const ManageJobs = () => {
                     <thead>
                         <tr>
                             <th>#</th>
-                            <th>Job Position</th>
+                            <th>Internship Position</th>
                             <th>Company</th>
                             <th>Created By</th>
                             <th>actions</th>

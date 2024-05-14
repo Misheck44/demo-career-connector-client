@@ -133,7 +133,7 @@ const ManageUsers = () => {
                                                             )
                                                         }
                                                     >
-                                                        recuiter
+                                                        Company
                                                     </button>
                                                 )}
                                                 {user?.role ===
@@ -147,7 +147,7 @@ const ManageUsers = () => {
                                                             )
                                                         }
                                                     >
-                                                        user
+                                                        Student
                                                     </button>
                                                 )}
                                             </>

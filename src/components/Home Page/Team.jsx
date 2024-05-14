@@ -1,39 +1,39 @@
 const people = [
     {
-      name: 'Leslie Alexander',
+      name: 'MiSoS XTeCh',
       role: 'Co-Founder / CEO',
       imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'https://drive.google.com/file/d/1diehIUwb61xg5VtZwwKUGiyRPIS6Xt9r/view?usp=drive_link',
     },
     {
-      name: 'Leslie Alexander',
+      name: 'MiSoS XTeCh',
       role: 'Co-Founder / CEO',
       imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'https://drive.google.com/file/d/1diehIUwb61xg5VtZwwKUGiyRPIS6Xt9r/view?usp=drive_link',
     },
     {
-      name: 'Leslie Alexander',
+      name: 'MiSoS XTeCh',
       role: 'Co-Founder / CEO',
       imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'https://drive.google.com/file/d/1diehIUwb61xg5VtZwwKUGiyRPIS6Xt9r/view?usp=drive_link',
     },
     {
-      name: 'Leslie Alexander',
+      name: 'MiSoS XTeCh',
       role: 'Co-Founder / CEO',
       imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'https://drive.google.com/file/d/1diehIUwb61xg5VtZwwKUGiyRPIS6Xt9r/view?usp=drive_link',
     },
     {
-      name: 'Leslie Alexander',
+      name: 'MiSoS XTeCh',
       role: 'Co-Founder / CEO',
       imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'https://drive.google.com/file/d/1diehIUwb61xg5VtZwwKUGiyRPIS6Xt9r/view?usp=drive_link',
     },
     {
-      name: 'Leslie Alexander',
+      name: 'MiSoS XTeCh',
       role: 'Co-Founder / CEO',
       imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'https://drive.google.com/file/d/1diehIUwb61xg5VtZwwKUGiyRPIS6Xt9r/view?usp=drive_link',
     },
     // More people...
   ]
@@ -45,8 +45,7 @@ const people = [
           <div className="max-w-2xl">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our leadership</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae elementum enim vitae ullamcorper
-              suspendisse.
+            Led by industry veterans, our platform is built by professionals who understand your career needs.
             </p>
           </div>
           <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">

@@ -21,8 +21,7 @@ const Footer = () => {
                   />
                 </a>
                 <p className="mb-7 text-base text-body-color dark:text-dark-6">
-                  Sed ut perspiciatis undmnis is iste natus error sit amet
-                  voluptatem totam rem aperiam.
+                Join the network and unlock your career potential today!.
                 </p>
                 <p className="flex items-center text-sm font-medium text-dark dark:text-white">
                   <span className="mr-3 text-primary">
@@ -138,7 +137,7 @@ const Footer = () => {
                   </a>
                 </div>
                 <p className="text-base text-body-color dark:text-dark-6">
-                  &copy; 2025 Job Portal
+                  &copy; 2025 Career Hunter Portal
                 </p>
               </div>
             </div>

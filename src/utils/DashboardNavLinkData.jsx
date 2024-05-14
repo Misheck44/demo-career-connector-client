@@ -38,12 +38,12 @@ const RecruiterLinks = [
         icon: <FiUser />,
     },
     {
-        text: "add job",
+        text: "add Internships",
         path: "add-jobs",
         icon: <RiMenuAddFill />,
     },
     {
-        text: "manage jobs",
+        text: "manage Internships",
         path: "manage-jobs",
         icon: <MdManageAccounts />,
     },

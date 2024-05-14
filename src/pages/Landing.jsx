@@ -24,15 +24,11 @@ const Landing = () => {
                 <div className="hero-content">
                     <div className="text-content">
                         <h1>
-                            Get Your <span className="fancy">Dream Job </span> 
+                            Get Attached <span className="fancy"> to one of the best Companies </span> 
                             Today!
                         </h1>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Illo perferendis dignissimos eligendi voluptas
-                            exercitationem, eius aut mollitia quasi nisi
-                            voluptatem similique, tempore totam, odit
-                            repellendus non. Dolores eos animi recusandae.
+                        Don't settle for just another internship search. Our platform empowers you to take control of your career destiny. Build meaningful connections, showcase your talents to the right companies, and unlock a future filled with exciting possibilities. With us, your dream job isn't just a hope, it's a reachable goal.
                         </p>
                         <div className="btn-grp">
                             <Link className="btn" to="/all-jobs">
@@ -41,7 +37,7 @@ const Landing = () => {
                         </div>
                     </div>
                     <div className="placeholder">
-                        <img src={photo} alt="job viva photo" />
+                        <img src={photo} alt="Internship viva photo" />
                     </div>
                 </div>
             </Wrapper>

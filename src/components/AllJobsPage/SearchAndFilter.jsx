@@ -109,7 +109,7 @@ const SearchAndFilter = () => {
                         name=""
                         id=""
                         className="search"
-                        placeholder="Type Job Title"
+                        placeholder="Type Internship Title"
                         onChange={(e) => setSearchQuery(e.target.value)}
                         value={searchQuery}
                     />

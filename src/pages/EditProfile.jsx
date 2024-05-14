@@ -199,7 +199,7 @@ const EditProfile = () => {
 
                             {/* Resume */}
                             <div className="row">
-                                <label htmlFor="resume">Resume Link</label>
+                                <label htmlFor="resume">Curriculum Vitae Link</label>
                                 <input
                                     type="text"
                                     id="resume"
@@ -209,7 +209,7 @@ const EditProfile = () => {
                                     {...register("resume", {
                                         required: {
                                             value: true,
-                                            message: "Job Location is required",
+                                            message: "Internship Location is required",
                                         },
                                         maxLength: {
                                             value: 500,

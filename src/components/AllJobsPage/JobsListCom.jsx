@@ -33,7 +33,7 @@ const JobsListCom = () => {
                         ? `0${jobs?.totalJobs}`
                         : jobs?.totalJobs}
                 </span>
-                Jobs
+                Internships
             </h5>
 
             <div className="list-container">

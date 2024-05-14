@@ -111,7 +111,7 @@ const Stats = () => {
             <div className="mt-12">
                 <div className="flex justify-between items-center mb-6">
                     <h3 className="text-lg md:text-2xl opacity-80 font-semibold">
-                        Job Application Stats
+                        Internship Application Stats
                     </h3>
                     <div
                         className="graph-controller"
