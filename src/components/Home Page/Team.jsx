@@ -9,30 +9,6 @@ const people = [
       role: 'Co-Founder / CEO',
       imageUrl:'/src/assets/images/Misos XTeCh.png',
     },
-    {
-      name: 'MiSoS XTeCh',
-      role: 'Co-Founder / CEO',
-      imageUrl:
-        '/src/assets/images/Misos XTeCh.png',
-    },
-    {
-      name: 'MiSoS XTeCh',
-      role: 'Co-Founder / CEO',
-      imageUrl:
-        '/src/assets/images/Misos XTeCh.png',
-    },
-    {
-      name: 'MiSoS XTeCh',
-      role: 'Co-Founder / CEO',
-      imageUrl:
-        '/src/assets/images/Misos XTeCh.png',
-    },
-    {
-      name: 'MiSoS XTeCh',
-      role: 'Co-Founder / CEO',
-      imageUrl:
-        '/src/assets/images/Misos XTeCh.png',
-    },
     // More people...
   ]
   
